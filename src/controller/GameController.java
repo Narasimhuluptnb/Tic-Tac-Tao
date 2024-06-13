@@ -28,7 +28,7 @@ public class GameController {
 		//.addWinningStrater(w1).addWinningStrater(w2)
 		
 		
-		}
+		} 
 	
 	public void displayBoard() {
 		game.getBoard().printBoard();
