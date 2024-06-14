@@ -17,7 +17,7 @@ public class GameController {
 //	}
     public Game StartGame(int dimension, List<Player> p,List<WinningStratergy> winningStratergies)
 		throws InvalidBotCount, InvalidPlayersCount {
-		// This is used to create object using Builder Design Pattern.
+		// This is used to create object using Builder Design Pattern. 
 		Game game =  Game.getInstanceBuilder()
 						 .setDimension(dimension)
 						 .setPlayers(p)
