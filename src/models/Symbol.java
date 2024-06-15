@@ -2,6 +2,10 @@ package models;
 
 public class Symbol {
 	private char symbol;
+	
+	public Symbol(char ch) {
+		this.symbol = ch;
+	}
 
 	public char getSymbol() {
 		return symbol;

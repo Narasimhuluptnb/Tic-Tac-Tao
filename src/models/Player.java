@@ -6,6 +6,13 @@ public class Player {
 	private PlayerType playerType;
 	private Symbol symbol;
 	
+	public Player(int id,String name, PlayerType p,Symbol s) {
+		this.id = id;
+		this.name = name;
+		this.playerType = p;
+		this.symbol = s;
+	}
+	
 	public int getId() {
 		return id;
 	}

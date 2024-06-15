@@ -17,7 +17,7 @@ public class Game {
 	private List<WinningStratergy> winningStratergies;
 	
 	public Game(int dimensions, List<Player> players, List<WinningStratergy> winningStratergies) {
-		this.board = new Board();
+		this.board = new Board(dimensions);
 		this.players = players;
 		this.moves = new ArrayList<Move>();
 		this.winner = null;
